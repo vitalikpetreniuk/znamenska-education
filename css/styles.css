@@ -1,0 +1,343 @@
+body
+{
+	width: 100%;
+	min-height: 100vh;
+	box-sizing: border-box;
+
+	font-family: 'Montserrat', sans-serif;
+	border-top: 15px solid rgba(44, 54, 76, 1);
+}
+
+.container
+{
+	max-width: 980px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: content-box;
+	min-height: calc(100vh - 253px);
+}
+.go-home
+{
+	font-size: 13px;
+	font-weight: bold;
+
+	margin: 20px 0 30px;
+	text-align: center;
+	text-decoration: none;
+	transition: color 0.4s ease 0s;
+    color: #0E9BD6;
+    display: inline-block;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 38px;
+	text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+
+    background-color: transparent;
+    cursor: pointer !important;
+	border: solid rgba(14, 155, 214, 1) 2px;
+    border-radius: 20px;
+    box-sizing: border-box;
+	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+.go-home:hover
+{
+	background-color: rgba(14, 155, 214, 1);
+    border-color: transparent;
+
+    color: #ffffff;
+}
+
+.ed-infoline
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.ed-infoline h6
+{
+	font-size: 22px;
+	color: rgb(14, 155, 214);;
+}
+
+.ed-infoline h6:nth-child(1),
+.ed-infoline h6:nth-child(3)
+{
+	font-weight: 800;
+}
+.ed-infoline h6:nth-child(2)
+{
+	text-decoration: underline;
+}
+
+.ed-title
+{
+	text-align: center;
+	color: #2C364C;
+	font-size: 32px;
+	font-weight: bold;
+	margin: 0 0 20px;
+	line-height: normal;
+}
+
+.ed-content p,
+.ed-content ul li
+{
+	font-size: 16px;
+	line-height: normal;
+}
+.ed-content p
+{
+	margin-bottom: 15px;
+}
+.ed-content ul li
+{
+	margin-bottom: 15px;
+	padding-left: 20px;
+
+	background-image: url('../img/ellipse.png');
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 12px;
+}
+
+.ed-payment
+{
+	border-top: 1px solid #000000;
+	padding-top: 20px;
+	text-align: center;
+
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+.ed-payment > span
+{
+	display: block;
+	width: 100%;
+	font-style: italic;
+	margin-bottom: 20px;
+	font-size: 16px;
+}
+.ed-payment .edp-price
+{
+	font-weight: bold;
+	font-size: 14px;
+    color: #0E9BD6;	
+    margin-right: 50px;
+}
+.ed-payment .edp-price span
+{
+	display: inline;
+	color: #2C364C;
+	text-transform: uppercase;
+}
+.ed-payment .edp-price span strong
+{
+	display: inline-block;
+	font-size: 32px;
+	font-weight: bold;
+	color: #2C364C;
+	margin-right: 5px;
+}
+
+.ed-payment .edp-register
+{
+	margin-left: 50px;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 36px;
+	box-sizing: border-box;
+    border-radius: 20px;
+    transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+    color: #FFFFFF;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: rgba(14, 155, 214, 1);
+    border: solid rgba(14, 155, 214, 1) 2px;
+    cursor: pointer !important;
+    text-decoration: none;
+}
+.ed-payment .edp-register:hover
+{
+	background-color: #ffffff;
+	color: rgb(14, 155, 214);
+}
+
+.ed-webinars
+{
+	text-align: center;
+	padding-bottom: 40px;
+}
+.ed-webinars span
+{
+	display: block;
+	font-size: 18px;
+	font-weight: 500;
+}
+.ed-webinars a
+{
+	font-size: 13px;
+	font-weight: bold;
+
+	margin: 20px auto 0;
+	text-align: center;
+	text-decoration: none;
+	transition: color 0.4s ease 0s;
+    color: #0E9BD6;
+    display: inline-block;
+	padding: 0 40px;
+	height: 40px;
+	line-height: 38px;
+	text-transform: uppercase;
+    position: relative;
+    white-space: nowrap;
+
+    background-color: transparent;
+    cursor: pointer !important;
+	border: solid rgba(14, 155, 214, 1) 2px;
+    border-radius: 20px;
+    box-sizing: border-box;
+	transition: border-color 0.4s ease 0s, background-color 0.4s ease 0s;
+}
+
+
+footer
+{
+	background: #2C364C;
+	color: #ffffff;
+	text-align: center;
+}
+footer .container
+{
+	padding-top: 20px;
+	min-height: 1px;
+}
+
+footer h4
+{
+	margin: 0 0 20px;
+	font-size: 32px;
+	font-weight: bold;
+    letter-spacing: 0.07em;
+}
+footer .foo-contacts
+{
+	position: relative;
+}
+footer .foo-contacts:before
+{
+	content: '';
+	display: block;
+	width: 200px;
+	margin: 0 auto 15px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+footer .foo-contacts a
+{
+	display: inline-block;
+
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 15px;
+	padding: 4px 0;
+	margin: 3px 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+footer .foo-termsofuse a
+{
+	display: inline-block;
+
+	color: #ffffff;
+	font-size: 14px;
+	line-height: 15px;
+	padding: 4px 0;
+	margin: 3px 0;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+footer .foo-paysystem
+{
+	text-align: center;
+	padding: 10px 0 15px;
+}
+footer .foo-paysystem span
+{
+	display: inline-block;
+	height: 40px;
+}
+footer .foo-paysystem span img
+{
+	height: 100%;
+	width: auto;
+	display: block;
+}
+
+
+@media only screen and (max-width: 1024px)
+{
+	.container
+	{
+		max-width: 720px;
+	}
+	.go-home
+	{
+		padding: 0 20px;
+	}
+	.ed-infoline h6
+	{
+		font-size: 19px
+	}
+	.ed-title
+	{
+		font-size: 27px;
+	}
+	.ed-content p, .ed-content ul li
+	{
+		font-size: 14px;
+	}
+	.ed-webinars span
+	{
+		font-size: 14px;
+		line-height: normal;
+	}
+}
+@media only screen and (max-width: 767px)
+{
+	.ed-infoline h6
+	{
+		width: 100%;
+		font-size: 16px;
+		line-height: normal;
+	}
+	.ed-title
+	{
+		text-align: left;
+		font-size: 24px;
+	}
+	.ed-payment .edp-price
+	{
+		margin-right: 0;
+		width: 100%;
+	}
+	.ed-payment .edp-register
+	{
+		margin-top: 10px;
+		margin-left: 0;
+		width: 240px;
+	}
+
+	.ed-webinars a
+	{
+		font-size: 12px;
+		padding: 0;
+		width: 100%;
+	}
+}
